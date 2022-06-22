@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9DF46C628629B8300115970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46C528629B8300115970 /* Assets.xcassets */; };
+		C9DF46C928629B8300115970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46C728629B8300115970 /* LaunchScreen.storyboard */; };
+		C9DF46CC28629B8300115970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46CB28629B8300115970 /* main.m */; };
+		C9DF46D428629BA100115970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46D228629BA100115970 /* Main.storyboard */; };
+		C9DF46DB28629BC700115970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46D528629BC600115970 /* AppDelegate.m */; };
+		C9DF46DC28629BC700115970 /* RTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46D628629BC600115970 /* RTNavigationViewController.m */; };
+		C9DF46E128629BD900115970 /* SourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46E028629BD900115970 /* SourceLoader.m */; };
+		C9DF46E528629BE200115970 /* CarIgnite.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46E328629BE200115970 /* CarIgnite.wav */; };
+		C9DF46E628629BE200115970 /* CarIgnite.he in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46E428629BE200115970 /* CarIgnite.he */; };
+		C9DF46E928629C1500115970 /* RichTapBasicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46E828629C1500115970 /* RichTapBasicsController.m */; };
+		C9DF46EC28629C8C00115970 /* RichTapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF46EB28629C8B00115970 /* RichTapSDK.framework */; };
+		C9DF46EF2862A2A600115970 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF46EE2862A2A600115970 /* CoreHaptics.framework */; };
+		C9DF46F12862A2B300115970 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF46F02862A2B300115970 /* libc++.tbd */; };
+		C9DF46F32862A2B900115970 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF46F22862A2B900115970 /* libc++.1.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9DF46B628629B8100115970 /* RichTapBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTapBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DF46C528629B8300115970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9DF46C828629B8300115970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9DF46CA28629B8300115970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DF46CB28629B8300115970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9DF46D328629BA100115970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Workspace/git/richtap_ios_sdk/RichTap-Test/RichTap-Test/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		C9DF46D528629BC600115970 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9DF46D628629BC600115970 /* RTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNavigationViewController.m; sourceTree = "<group>"; };
+		C9DF46D728629BC700115970 /* RTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNavigationViewController.h; sourceTree = "<group>"; };
+		C9DF46DA28629BC700115970 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9DF46DF28629BD900115970 /* SourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceLoader.h; sourceTree = "<group>"; };
+		C9DF46E028629BD900115970 /* SourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceLoader.m; sourceTree = "<group>"; };
+		C9DF46E328629BE200115970 /* CarIgnite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CarIgnite.wav; sourceTree = "<group>"; };
+		C9DF46E428629BE200115970 /* CarIgnite.he */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CarIgnite.he; sourceTree = "<group>"; };
+		C9DF46E728629C1500115970 /* RichTapBasicsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTapBasicsController.h; sourceTree = "<group>"; };
+		C9DF46E828629C1500115970 /* RichTapBasicsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTapBasicsController.m; sourceTree = "<group>"; };
+		C9DF46EB28629C8B00115970 /* RichTapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RichTapSDK.framework; sourceTree = "<group>"; };
+		C9DF46EE2862A2A600115970 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
+		C9DF46F02862A2B300115970 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C9DF46F22862A2B900115970 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9DF46B328629B8100115970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DF46F32862A2B900115970 /* libc++.1.tbd in Frameworks */,
+				C9DF46F12862A2B300115970 /* libc++.tbd in Frameworks */,
+				C9DF46EC28629C8C00115970 /* RichTapSDK.framework in Frameworks */,
+				C9DF46EF2862A2A600115970 /* CoreHaptics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9DF46AD28629B8100115970 = {
+			isa = PBXGroup;
+			children = (
+				C9DF46B828629B8100115970 /* RichTapBasics */,
+				C9DF46B728629B8100115970 /* Products */,
+				C9DF46ED2862A2A600115970 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9DF46B728629B8100115970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF46B628629B8100115970 /* RichTapBasics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9DF46B828629B8100115970 /* RichTapBasics */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF46DA28629BC700115970 /* AppDelegate.h */,
+				C9DF46D528629BC600115970 /* AppDelegate.m */,
+				C9DF46D728629BC700115970 /* RTNavigationViewController.h */,
+				C9DF46D628629BC600115970 /* RTNavigationViewController.m */,
+				C9DF46E728629C1500115970 /* RichTapBasicsController.h */,
+				C9DF46E828629C1500115970 /* RichTapBasicsController.m */,
+				C9DF46DE28629BD900115970 /* Tools */,
+				C9DF46E228629BE200115970 /* Resources */,
+				C9DF46EA28629C3100115970 /* Frameworks */,
+				C9DF46D228629BA100115970 /* Main.storyboard */,
+				C9DF46C528629B8300115970 /* Assets.xcassets */,
+				C9DF46C728629B8300115970 /* LaunchScreen.storyboard */,
+				C9DF46CA28629B8300115970 /* Info.plist */,
+				C9DF46CB28629B8300115970 /* main.m */,
+			);
+			path = RichTapBasics;
+			sourceTree = "<group>";
+		};
+		C9DF46DE28629BD900115970 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF46DF28629BD900115970 /* SourceLoader.h */,
+				C9DF46E028629BD900115970 /* SourceLoader.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C9DF46E228629BE200115970 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF46E328629BE200115970 /* CarIgnite.wav */,
+				C9DF46E428629BE200115970 /* CarIgnite.he */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9DF46EA28629C3100115970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF46EB28629C8B00115970 /* RichTapSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9DF46ED2862A2A600115970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF46F22862A2B900115970 /* libc++.1.tbd */,
+				C9DF46F02862A2B300115970 /* libc++.tbd */,
+				C9DF46EE2862A2A600115970 /* CoreHaptics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9DF46B528629B8100115970 /* RichTapBasics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DF46CF28629B8300115970 /* Build configuration list for PBXNativeTarget "RichTapBasics" */;
+			buildPhases = (
+				C9DF46B228629B8100115970 /* Sources */,
+				C9DF46B328629B8100115970 /* Frameworks */,
+				C9DF46B428629B8100115970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RichTapBasics;
+			productName = RichTapBasics;
+			productReference = C9DF46B628629B8100115970 /* RichTapBasics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9DF46AE28629B8100115970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C9DF46B528629B8100115970 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C9DF46B128629B8100115970 /* Build configuration list for PBXProject "RichTapBasics" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9DF46AD28629B8100115970;
+			productRefGroup = C9DF46B728629B8100115970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9DF46B528629B8100115970 /* RichTapBasics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9DF46B428629B8100115970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DF46E628629BE200115970 /* CarIgnite.he in Resources */,
+				C9DF46D428629BA100115970 /* Main.storyboard in Resources */,
+				C9DF46C928629B8300115970 /* LaunchScreen.storyboard in Resources */,
+				C9DF46C628629B8300115970 /* Assets.xcassets in Resources */,
+				C9DF46E528629BE200115970 /* CarIgnite.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9DF46B228629B8100115970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DF46DB28629BC700115970 /* AppDelegate.m in Sources */,
+				C9DF46DC28629BC700115970 /* RTNavigationViewController.m in Sources */,
+				C9DF46E928629C1500115970 /* RichTapBasicsController.m in Sources */,
+				C9DF46E128629BD900115970 /* SourceLoader.m in Sources */,
+				C9DF46CC28629B8300115970 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9DF46C728629B8300115970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9DF46C828629B8300115970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9DF46D228629BA100115970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9DF46D328629BA100115970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9DF46CD28629B8300115970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9DF46CE28629B8300115970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9DF46D028629B8300115970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RichTapBasics/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RichTapBasics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aactechnologies.richtapbasics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9DF46D128629B8300115970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RichTapBasics/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RichTapBasics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aactechnologies.demotest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9DF46B128629B8100115970 /* Build configuration list for PBXProject "RichTapBasics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DF46CD28629B8300115970 /* Debug */,
+				C9DF46CE28629B8300115970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DF46CF28629B8300115970 /* Build configuration list for PBXNativeTarget "RichTapBasics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DF46D028629B8300115970 /* Debug */,
+				C9DF46D128629B8300115970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9DF46AE28629B8100115970 /* Project object */;
+}
