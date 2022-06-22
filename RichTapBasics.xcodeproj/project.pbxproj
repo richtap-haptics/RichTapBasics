@@ -10,7 +10,6 @@
 		C9DF46C628629B8300115970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46C528629B8300115970 /* Assets.xcassets */; };
 		C9DF46C928629B8300115970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46C728629B8300115970 /* LaunchScreen.storyboard */; };
 		C9DF46CC28629B8300115970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46CB28629B8300115970 /* main.m */; };
-		C9DF46D428629BA100115970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46D228629BA100115970 /* Main.storyboard */; };
 		C9DF46DB28629BC700115970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46D528629BC600115970 /* AppDelegate.m */; };
 		C9DF46DC28629BC700115970 /* RTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46D628629BC600115970 /* RTNavigationViewController.m */; };
 		C9DF46E128629BD900115970 /* SourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DF46E028629BD900115970 /* SourceLoader.m */; };
@@ -21,6 +20,7 @@
 		C9DF46EF2862A2A600115970 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF46EE2862A2A600115970 /* CoreHaptics.framework */; };
 		C9DF46F12862A2B300115970 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF46F02862A2B300115970 /* libc++.tbd */; };
 		C9DF46F32862A2B900115970 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF46F22862A2B900115970 /* libc++.1.tbd */; };
+		C9DF46F828630C3E00115970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF46F628630C3E00115970 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,6 @@
 		C9DF46C828629B8300115970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DF46CA28629B8300115970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DF46CB28629B8300115970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C9DF46D328629BA100115970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Workspace/git/richtap_ios_sdk/RichTap-Test/RichTap-Test/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		C9DF46D528629BC600115970 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9DF46D628629BC600115970 /* RTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNavigationViewController.m; sourceTree = "<group>"; };
 		C9DF46D728629BC700115970 /* RTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNavigationViewController.h; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		C9DF46EE2862A2A600115970 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
 		C9DF46F02862A2B300115970 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C9DF46F22862A2B900115970 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		C9DF46F728630C3E00115970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 				C9DF46DE28629BD900115970 /* Tools */,
 				C9DF46E228629BE200115970 /* Resources */,
 				C9DF46EA28629C3100115970 /* Frameworks */,
-				C9DF46D228629BA100115970 /* Main.storyboard */,
 				C9DF46C528629B8300115970 /* Assets.xcassets */,
+				C9DF46F628630C3E00115970 /* Main.storyboard */,
 				C9DF46C728629B8300115970 /* LaunchScreen.storyboard */,
 				C9DF46CA28629B8300115970 /* Info.plist */,
 				C9DF46CB28629B8300115970 /* main.m */,
@@ -193,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DF46E628629BE200115970 /* CarIgnite.he in Resources */,
-				C9DF46D428629BA100115970 /* Main.storyboard in Resources */,
+				C9DF46F828630C3E00115970 /* Main.storyboard in Resources */,
 				C9DF46C928629B8300115970 /* LaunchScreen.storyboard in Resources */,
 				C9DF46C628629B8300115970 /* Assets.xcassets in Resources */,
 				C9DF46E528629BE200115970 /* CarIgnite.wav in Resources */,
@@ -226,10 +226,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		C9DF46D228629BA100115970 /* Main.storyboard */ = {
+		C9DF46F628630C3E00115970 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C9DF46D328629BA100115970 /* Base */,
+				C9DF46F728630C3E00115970 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -353,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -387,7 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -410,7 +410,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aactechnologies.demotest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
